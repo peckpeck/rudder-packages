@@ -194,7 +194,7 @@ endif
 
         # Install /etc/bash_completion.d/rudder in order to autocomplete rudder commands
 	mkdir -p $(DESTDIR)/etc/bash_completion.d
-	$(INSTALL) -m 644 rudder-agent-utilities/etc/bash_completion.d/rudder $(DESTDIR)/etc/bash_completion.d/
+	$(INSTALL) -m 644 rudder-agent-utilities/etc/bash_completion.d/rudder.sh $(DESTDIR)/etc/bash_completion.d/
 
         # Install rudder man page
 	mkdir -p $(INSTALL_DIR)/share/man/man8/
